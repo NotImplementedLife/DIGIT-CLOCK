@@ -11,6 +11,4 @@ SECTION "Entry point", ROM0
 EntryPoint:
 	call HbOwlSplashScreen
 	call CopyDMARoutine
-	ei
-	vBlankInit
-	jp @
+	jp Start

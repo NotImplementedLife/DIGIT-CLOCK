@@ -16,13 +16,6 @@ initOAM: MACRO
 	call hOAMDMA
 ENDM
 
-vBlankInit: MACRO
-	xor a
-	ldh [hVBlankFlag], a	
-	ld a, 1
-    ld [rIE], a
-ENDM
-
 wait_vram: MACRO
 .waitVRAM\@
 	ldh a, [rSTAT]
