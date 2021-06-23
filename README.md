@@ -14,6 +14,7 @@ This repo is part of [HomebrewOwl.GB](https://github.com/NotImplementedLife/Home
 git clone https://github.com/NotImplementedLife/DIGIT-CLOCK --recursive
 ```
 ```
+cd DIGIT-CLOCK
 make
 ```
 Make sure RGBDS is installed and exists in your `%PATH%`.
@@ -25,3 +26,7 @@ Make sure RGBDS is installed and exists in your `%PATH%`.
 ## Screenshots
 
 <img src="README_Resources/ss.png"></img>
+
+## Linked
+
+- [HomebrewOwl.GB](https://github.com/NotImplementedLife/HomebrewOwl.GB "HomebrewOwl.GB") - check out my other Gameboy projects
